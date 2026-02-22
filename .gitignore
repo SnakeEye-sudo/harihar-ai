@@ -1,0 +1,51 @@
+# Python backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Hugging Face model cache (large files)
+*.bin
+*.safetensors
+*.pt
+*.pth
+models/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Node / Next.js frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/.turbo/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
